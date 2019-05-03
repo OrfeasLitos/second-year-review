@@ -1,5 +1,111 @@
 \section{Progress to date}
   \subsection{Work during past year}
+    This year I have steadily increased my knowledge in multiple fronts, as well
+    as started dedicating more and more fruitful time to producing novel
+    research. To begin with, I have studied content curation, a concept that
+    refers to methods and techniques used to evaluate and rank user-generated
+    content in social media platforms and online forums. Our work on this
+    subject culminated in the authoring and successful publication of 'A Puff of
+    Steem: Security Analysis of Decentralized Content
+    Curation'~\cite{puffofsteem}. In this paper we define an abstract system
+    within which one can express a wide variety of concrete curation mechanisms.
+    Furthermore, we leverage this system to analyse the quality of content
+    curation of the Steemit\footnote{\url{https://steemit.com}} platform. This
+    work exemplifies the lack of quality decentralised content curation
+    mechanisms by highlighting the problems that arise by the use of the
+    particular curation method employed by Steemit.
+
+    Furthermore, I have obtained a solid (but not yet complete) understanding of
+    the 'Universal Composability'~\cite{canetti2001universally} framework, which
+    is a cryptographic model designed to facilitate proving secure a
+    cryptographic protocol that runs concurrenly with other protocols. This
+    makes proofs and protocols composable in the sense that a protocol that has
+    been proven UC-secure can be run securely on a system that runs many
+    independent copies of this protocol and other arbitrary algorithms and
+    protocols, not known at the time of proof.
+
+    In parallel I have studied several 2nd layer blockchain solutions, a set of
+    techniques that aim to increase the scalability of blockchains by allowing
+    multiple transactions to happen without having to add them to the
+    blockchain. In particular, two parties that want to financially interact
+    with each other often but do not trust each other can lock some of their
+    funds in a new channel by adding a single transaction to the blockchain,
+    transact an unlimited number of times within this channel off-chain and
+    finally unlock the funds with the balance that corresponds to the latest
+    state of the channel with another on-chain transaction. The knowledge gained
+    through this study is currently being used in order to model and prove
+    secure the 'Lightning Payment Channels'~\cite{lightning}, the most widely
+    used 2nd layer solution, within the UC framework. I am currently close to
+    the completion of the proof of security and subsequently of this project.
+
+    Another related topic of interest for me has been understanding the
+    blockchain itself. In this subject, I have studied several formalisations of
+    blockchains (e.g. 'Bitcoin Backbone'~\cite{garay2015bitcoin}) and particular
+    blockchain constructions (e.g. 'Ouroboros'~\cite{kiayias2017ouroboros}) and
+    implementations (e.g. 'bcoin.js'\footnote{\url{https://bcoin.io}}). My
+    contribution consists of an ongoing project to design a new functionality
+    that describes the requirements that any distributed ledger should fulfill
+    in the simplest form possible.
+
+    Moreover, I have been aquainted with several cryptographic primitives and
+    have developed and proven secure new ones to aid the formalisation of
+    Payment Channels. Through personal and group work, I have amassed knowledge
+    on low-level symmetric encryption primitives and hash functions and I
+    understand the majority of concepts connected to the paradigm of
+    simluation-based security.
+
+    Last but not least, I have developed my teaching and transferrable skills
+    through creating exercises for other students and delivering presentations
+    in conferences, workshops and meetings.
+
   \subsection{Meetings with supervisor}
+    Since 1/5/2018, we have had approximately one meeting per 10 days. The vast
+    majority lasted for one hour and were one-to-one. These meetings have
+    greatly helped me resolve questions with regards to the cryptographic
+    methodology in general, simulation-based security, and the UC framework
+    usage in particular. They helped me gain intuition on why certain approaches
+    are taken and enabled me to develop my reasoning techniques with respect to
+    them. Furthermore, Prof. Kiayias provided me with invaluable modelling ideas
+    that catalysed the process of achieving our research objectives.
+    Additionally, the Cryptography and Security group (headed by Prof. Kiayias)
+    meets every week. Members of the group report on their progress there and
+    interesting, informative discussions take place.
+
   \subsection{Conferences, seminars, workshops}
+    I have attended or am attending the following:
+    \begin{itemize}
+      \item Real World Crypto
+      2019\footnote{\url{https://rwc.iacr.org/2019/index.html}}
+      \item Summer School on real-world crypto and privacy
+      2019\footnote{\url{https://summerschool-croatia.cs.ru.nl/2019/}}
+      \item Security and Privacy group weekly seminar
+      \item Symmetric Cryptography weekly workshop
+      \item IOHK Miami Summit 2019\footnote{\url{https://iohksummit.io/}}
+    \end{itemize}
+
   \subsection{Achievements}
+    This is a list of my achievements for the past year:
+    \begin{itemize}
+      \item Gave a presentation on the basics of Bitcoin for SIGCoin in the
+      University of Edinburgh.
+      \item Gave an invited talk at 'Bitcoin Wednesday
+      Amsterdam'\footnote{\url{https://www.bitcoinwednesday.com/events/bitcoin-wednesday-65/}}
+      on 'Trust is Risk'.
+      \item Gave a presentation at IOHK Miami Summit
+      2019\footnote{\url{https://iohksummit.io/}} on 'Lightning Payment
+      Channels'.
+      \item Was accepted and gave a presentation at Tokenomics
+      2019\footnote{\url{http://tokenomics2019.org/}} on 'A Puff of Steem:
+      Security Analysis of Decentralized Content Curation'.
+      \item Improved my teaching skills in my role as Tutor for the Computer
+      Security course.
+      \item Improved my skills in creating assignments for students in my
+      Teaching Assistant role for the Computer Security course.
+      \item Learned more LaTeX, JavaScript, Python and gained general
+      programming knowledge.
+      \item Learned the internals of Bitcoin.
+      \item Contributed to the bcoin.js library.
+      \item Contributed to \url{https://blockchain-course.org/}.
+      \item Contributed to Prof. Kiayias lecture notes on Cryptography.
+      \item Improved my knowledge on computer networks.
+    \end{itemize}

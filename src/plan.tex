@@ -1,3 +1,77 @@
 \section{Plan of action}
   \subsection{Goals for following year}
+    My primary goal at present is to complete and submit the Payment Network
+    paper. A number of other projects are under consideration. These include the
+    following:
+    \begin{itemize}
+      \item A combination of content curation with off-chain transactions. The
+      aim of this project is to create a social networking blockchain-backed
+      platform similar to Steemit, but where not every vote interacts with the
+      blockchain. This will enable scalability for the particular application of
+      decentralised content curation.
+      \item Completion of the project of simplifying the Ledger functionality.
+      The aim would be to create a functionality that is equivalent to the
+      current form of the Ledger functionality (as found in 'Ouroboros
+      Genesis'~\cite{genesis}), but which would achieve a cleaner separation of
+      the application and the consensus layer of ledgers. The usecase for this
+      functionality would be for researchers that are interested in creating new
+      blockchain applications but prefer not to understand in depth how the
+      consensus layer works, but use a simple abstraction for it instead.
+      \item Classification of decentralised content curation mechanisms. As we
+      learned while working on Steemit, designing such mechanisms is no easy
+      task. The solutions used in conventional centralised social networks are
+      not directly applicable to the decentralised setting. An interesting
+      frontier to pursue would be a characterisation of the design space of such
+      algorithms. An interesting result of such research would be to reach some
+      form of impossibility result with respect to what quality of curation is
+      possible. Taking this a step further, we could collaborate with machine
+      learning experts to look for satisfactory decentralised content curation
+      mechanisms.
+      \item Creation of virtual payment channels on Bitcoin~\cite{bitcoin}. A
+      virtual payment channel is a channel that can be opened and closed without
+      touching the blockchain; It uses two pre-existing payment channels as its
+      'blockchain'. This enables off-chain transactions between Alice and
+      Charlie, even though they do not have an on-chain channel. If they both
+      have an on-chain channel with Bob, they first ask for the help of Bob to
+      create a virtual Alice - Charlie channel that 'sits on top of' the Alice -
+      Bob and the Bob - Charlie channels. Subsequently Alice and Charlie can
+      perform off-chain payments to each other without requiring the
+      intermediation of Bob for every single transaction. This construction is
+      particularly hard (i.e. interesting) to achieve in Bitcoin, given the very
+      limited, non-Turing-complete scripting language it uses.
+      \item Design of a new blockchain that natively enables payment channels.
+      Most existing fully decentralised blockchains were designed before the
+      severe issue of scalability was discovered. Their design implicitly
+      assumes that all transactions are to be put on-chain. As a result, most
+      existing 2nd layer solutions use compatibility tricks and complex
+      techniques that are hard to analyse and verify, not to mention the
+      overhead they incur. There is a lack of research yet on how to design a
+      blockchain from first principles that embraces the concept of 2nd layer
+      solutions. This is a topic that inspires me, given that it can help
+      blockchains achieve their full potential.
+    \end{itemize}
+
+    Of course it is impossible to achieve all the aforementioned goals in the
+    next year. A more realistic goal would be to complete or have satisfactory
+    progress in 3 of the projects described. I will consider a project as
+    completed once a relevant paper that contains a satisfactory degree of
+    results has been accepted in a respected conference.
+
   \subsection{Thesis completion plan}
+    I aim to submit the Lightning Payment Network paper until the end of May
+    2019. Subsequently I would like to devote at most 6 months to writing and
+    submitting a paper on designing virtual payment channels on Bitcoin. In the
+    meanwhile I would like to pursue the Ledger functionality project with the
+    aim of publishing another paper. After that, I plan to dedicate the rest of
+    my studentship to the following two projects: that of classifying content
+    curation systems and that of designing a payment network-enabled blockchain.
+
+    I expect that my thesis will be on formalising, securing and optimising 2nd
+    layer payment networks. Given on the one hand that it is a new area of
+    blockchain research and is likely to be the main means through which
+    blockchains will manage to scale to the needs of a global market, and on the
+    other hand that this past year I have thoroughly understood several
+    approaches to their construction and analysis, I believe that choosing this
+    as the topic of my thesis is both a realistic target and a possibly
+    influential and useful result for both the blockchain community and the
+    general population.
