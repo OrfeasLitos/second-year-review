@@ -1,0 +1,16 @@
+ 2: Puff of steem published, LN just submitted
+ 4: posting & voting touches blockchain
+ 5: coins fixed for us
+    + some system parameters
+ 8: ideal: ordered by sum of likabilities
+ 9: honest players, adversarial input
+    collusions mutually beneficial
+10: best case numbers for Ethereum
+11: doesn't really scale
+12: only interested parties involved
+    if one cheats, counterparty proves on-chain
+15: Only insecurity sources are digital signatures
+    Also prove 2 ad-hoc constructions secure, one with a new primitive
+16: Cryptography not enough
+    Throwing more cryptography at the problem, pushing it farther away
+    Too interdisciplinary
