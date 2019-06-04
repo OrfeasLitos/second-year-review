@@ -14,3 +14,6 @@
 16: Cryptography not enough
     Throwing more cryptography at the problem, pushing it farther away
     Too interdisciplinary
+17: Ordered roughly by probability of completion
+    6 months to complete first two
+    No promises to do all of them
