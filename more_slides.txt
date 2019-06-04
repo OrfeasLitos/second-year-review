@@ -1,0 +1,4 @@
+Lightning Network Security paper: https://github.com/OrfeasLitos/PaymentChannels/raw/master/paymentChannels.pdf
+Lightning Network slides: https://github.com/OrfeasLitos/PaymentChannels/raw/master/slides/slides.pdf
+Puff of Steem paper: https://arxiv.org/pdf/1810.01719.pdf
+Puff of Steem slides: https://github.com/curationTeam/fairPostOrdering/raw/master/slides/slides.pdf
